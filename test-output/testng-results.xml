@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[No of rows are::5]]>
+    </line>
+    <line>
+      <![CDATA[Customer-00000005603=================Customer-00000005603]]>
+    </line>
+    <line>
+      <![CDATA[Customer-00000005604=================Customer-00000005604]]>
+    </line>
+    <line>
+      <![CDATA[Customer-00000005605=================Customer-00000005605]]>
+    </line>
+    <line>
+      <![CDATA[Customer-00000005606=================Customer-00000005606]]>
+    </line>
+    <line>
+      <![CDATA[Customer-00000005607=================Customer-00000005607]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-05-09T16:51:31 IST" name="Default suite" finished-at="2024-05-09T16:52:31 IST" duration-ms="60289">
+    <groups>
+    </groups>
+    <test started-at="2024-05-09T16:51:31 IST" name="Default test" finished-at="2024-05-09T16:52:31 IST" duration-ms="60289">
+      <class name="driverFactory.AppTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:driverFactory.AppTest@65fb9ffc]" started-at="2024-05-09T16:51:31 IST" name="setUp" finished-at="2024-05-09T16:51:44 IST" duration-ms="13629" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="startTest()[pri:0, instance:driverFactory.AppTest@65fb9ffc]" started-at="2024-05-09T16:51:44 IST" name="startTest" finished-at="2024-05-09T16:52:29 IST" duration-ms="45199" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[No of rows are::5]]>
+            </line>
+            <line>
+              <![CDATA[Customer-00000005603=================Customer-00000005603]]>
+            </line>
+            <line>
+              <![CDATA[Customer-00000005604=================Customer-00000005604]]>
+            </line>
+            <line>
+              <![CDATA[Customer-00000005605=================Customer-00000005605]]>
+            </line>
+            <line>
+              <![CDATA[Customer-00000005606=================Customer-00000005606]]>
+            </line>
+            <line>
+              <![CDATA[Customer-00000005607=================Customer-00000005607]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:driverFactory.AppTest@65fb9ffc]" started-at="2024-05-09T16:52:29 IST" name="tearDown" finished-at="2024-05-09T16:52:31 IST" duration-ms="1401" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- driverFactory.AppTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
