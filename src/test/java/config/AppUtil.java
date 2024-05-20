@@ -22,7 +22,7 @@ public static void setUp()throws Throwable
 	conpro = new Properties();
 	conpro.load(new FileInputStream("./PropertyFiles/Environemnt.properties"));
 	driver = new ChromeDriver();
-	driver.manage().window().maximize();
+	//driver.manage().window().maximize();
 	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 	driver.get(conpro.getProperty("Url"));
 	//call login page class
